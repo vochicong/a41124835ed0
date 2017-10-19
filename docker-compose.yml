@@ -1,0 +1,9 @@
+version: '2'
+services:
+  jupyter:
+    image: vochicong/nlp-python-safari
+    build: .
+    ports:
+      - 8888:8888
+    volumes:
+      - .:/usr/workdir

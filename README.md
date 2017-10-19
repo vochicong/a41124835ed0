@@ -35,6 +35,10 @@ defined for an instance of this course a few months ago:
 That's been extended by @odewahn to run on [Launchbot](https://launchbot.io) 
 and [JupyterHub](https://jupyterhub.readthedocs.io/en/latest/)
 
+To run the docker container locally.
+
+    docker-compose up
+
 ## Command line test
 
 To exercise the code in the `pynlp` library:
